@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-image: url(https://taxi838.ua/taxi838/images/banner-img.png);
+}
+
+.card {
+    top: 20px;
+    height: 450px;
+}
+
+.nav-link {
+    color: white;
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(140, 140, 140)
+}
+
+.navbar-brand img {
+    width: 50px;
+    height: 50px;
+}
+
+.navbar-toggler {
+    background-color: rgb(140, 140, 140);
+}
+
+.card>img {
+    height: 222;
+}
+
+.slide-text {
+    color: black;
+    margin: auto auto;
+}
+
+.carousel {
+    margin: 20px;
+    padding: 50px;
+    background: rgba(0, 0, 0, .2);
+    border-radius: 30px;
+}
+
+.section2 {
+    margin: auto auto;
+    padding: 150px;
+    position: relative;
+    text-align: center;
+    background: rgb(236, 236, 236);
+}
+
+.row .advantage-item {
+    padding: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    max-width: 255px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row .advantage-title {
+    color: black;
+    font-size: 24px;
+    line-height: 1.2;
+    margin-bottom: 16px;
+    font-weight: 600;
+}
+
+.row {
+    margin-left: -16px !important;
+    margin-right: -16px !important;
+    box-sizing: border-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -.5rem;
+    margin-left: -.5rem;
+}
+
+.col-sm-4 {
+    flex-basis: 33.33333333%;
+    max-width: 33.33333333%;
+    box-sizing: border-box;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    padding-right: .5rem;
+    padding-left: .5rem;
+}
+
+.btn-primary {
+    color: black;
+    padding: 13px 30px;
+    display: inline-block;
+    background: #ffca46;
+    border-radius: 4px;
+    display: inline-block;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 24px;
+    letter-spacing: 2px;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    border-color: transparent;
+}
